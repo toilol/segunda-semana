@@ -7,9 +7,9 @@ import { MenuController } from '@ionic/angular';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor(private menu: MenuController) {}
+  constructor(private menuController: MenuController) {}
 
   closeMenu() {
-    this.menu.close();
+    this.menuController.close();
   }
 }

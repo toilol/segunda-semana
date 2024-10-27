@@ -1,0 +1,58 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; // Asegúrate de que el contenido esté apilado verticalmente
+    justify-content: center;
+    align-items: center; // Centra horizontalmente
+    width: 100%;
+    max-width: 400px; // Ajusta según tus necesidades
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center; // Centra el texto
+  }
+  
+  .subTitle {
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    text-align: center; // Centra el texto
+  }
+  
+  .input {
+    font-size: 1rem;
+    color: #000; // Color del texto del input
+  }
+  
+  ion-item {
+    --background: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 16px; // Espacio entre inputs
+    width: auto; // Dejar que se ajuste automáticamente
+  }
+  
+  .forgot-password,
+  .signupLink {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  a {
+    color: #007aff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

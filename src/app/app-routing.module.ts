@@ -16,7 +16,11 @@ const routes: Routes = [
   {
     path: 'lol',
     loadChildren: () => import('./lol/lol.module').then( m => m.LolPageModule)
+  },  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
   },
+
 ];
 
 @NgModule({
